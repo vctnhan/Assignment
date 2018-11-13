@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_home"
+            android:title="Lastest"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_categories"
+            android:title="Categories" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_favorite"
+            android:title="My favourites" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_gif"
+            android:title="GIFs" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_aboutus"
+            android:title="About us" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_privacy"
+            android:title="Privacy policy " />
+        <item
+            android:title="" />
+        <item
+            android:title="" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2"
+
+        >
+
+        <item
+
+            android:title="Developed by: Hanwool" />
+
+    </group>
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:title="Developed by: Hanwool" />-->
+
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>
